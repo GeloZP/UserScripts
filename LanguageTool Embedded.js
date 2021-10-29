@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name         LanguageTool Embedded
-// @namespace    http://tampermonkey.net/
-// @version      1.0
 // @description  LanguageTool Embedded
 // @author       Gerard López
 // @include      https://languagetool.org/
 // @match        https://languagetool.org/
 // @grant        none
-// @run-at        document-start
+// @run-at       document-start
 // ==/UserScript==
 
 
@@ -83,7 +81,7 @@ padding: 0px 0px 0;
 box-sizing: border-box;
 }
 
-.headline.center, .headline--sub-title, #addon-link, .partners-section, .left-right-section, .download-section, #plugins, #office, .footer, .footer-nav, .wrapper.padding, .page--background, .header, .discount-message-box, .headline, .subline, .btn-wrapper, .gray-section, .footer, .footer-nav, .description--sub-title.center{
+.headline.center, .headline--sub-title, #addon-link, .partners-section, .left-right-section, .download-section, #plugins, #office, .footer, .footer-nav, .wrapper.padding, .page--background, .header, .discount-message-box, .headline, .subline, .btn-wrapper, .gray-section, .footer, .footer-nav, .description--sub-title.center, #sign-up-link{
 display: none;
 }
 .welcome-editor:empty, .welcome-editor__inner {
